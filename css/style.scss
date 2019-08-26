@@ -137,7 +137,7 @@ body
 {
   body { background-color: $dark-color; }
   body section#wrapper { margin: 0; height: 100vh; }
-  body section#wrapper .sliders-container { width: 100%; overflow: auto; left: 0px; scroll-snap-type: y mandatory; } /* avoids scroll behaviour */
+  body section#wrapper .sliders-container { width: 100%; overflow: auto; left: 0px !important; scroll-snap-type: y mandatory; } /* avoids scroll behaviour */
   body section#slider-buttons { display: none; }
   body section#wrapper .sliders-container #slider-container { width: 100%; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background-position: bottom left; }
   body section#wrapper .sliders-container #slider-container .slider-column, body section#slider-buttons .slider-column { max-width: unset; width: 100%; }

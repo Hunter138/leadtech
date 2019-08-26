@@ -169,7 +169,7 @@ body {
   body section#wrapper .sliders-container {
     width: 100%;
     overflow: auto;
-    left: 0px;
+    left: 0px !important;
     scroll-snap-type: y mandatory; }
 
   /* avoids scroll behaviour */
