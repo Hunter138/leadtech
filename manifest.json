@@ -1,0 +1,31 @@
+{
+  "short_name": "Visa to the Moon",
+  "name": "LeadTech",
+  "start_url": "index.html",
+  "theme_color": "#205e5d",
+  "background_color": "#205e5d",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/splash.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

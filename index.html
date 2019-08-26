@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+    <meta name="description" content="Visit the moon and don't forget a souvenir" />
+    <meta name="theme-color" content="#205e5d"/>
+    <link rel="icon" type="image/png" href="img/icon-1x.png" sizes="48x48">
+    <link rel="manifest" href="manifest.json">
+    <title>Visa to the Moon</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+        if ('serviceWorker' in navigator)
+        {
+          window.addEventListener('load', function ()
+          {
+            navigator.serviceWorker.register('./sw.js').then(function () 
+            { 
+              console.log("Service Worker Registered"); });
+          });
+        }
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+<section id="wrapper">
+  <div class="sliders-container">
+    <!-- slide 1 -->
+    <section id="slider-container" name="slide-0">
+      <div id="main-0" class="slider-column center">
+        <div id="main-logo-0" class="slider-row">
+          <h1 id="main-title-0">Visa to <br>the moon</h1>
+        </div>
+        <div class="slider-row"></div>
+      </div>
+      <div class="slider-column">
+        <div id="rocket-icon-0" class="slider-row">
+          <h3 id="slide-0-title"></h3>
+          <hr>
+          <span id="slide-0-hashtags" class="hashtag"></span>
+        </div>
+        <div class="slider-row"></div>
+      </div>
+      <div class="slider-column">
+        <div class="slider-row"></div>
+        <div class="slider-row">
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-column">
+        <div id="rocket-img-0" class="slider-row">
+          <h3 id="main-title-mobile">Visa to <br>the moon</h3>
+        </div>
+        <div class="slider-row"></div>
+      </div>
+    </section>
+    <!-- slide 2 -->
+    <section id="slider-container" name="slide-1">
+        <div id="main-1" class="slider-column center">
+          <div id="main-logo-1" class="slider-row">
+            <h1 id="main-title-1">Visa to <br>the moon</h1>
+          </div>
+          <div class="slider-row"></div>
+        </div>
+        <div class="slider-column">
+          <div id="rocket-icon-1" class="slider-row">
+            <h3 id="slide-1-title"></h3>
+            <hr>
+            <span id="slide-1-hashtags" class="hashtag"></span>
+          </div>
+          <div class="slider-row"></div>
+        </div>
+        <div class="slider-column">
+          <div class="slider-row"></div>
+          <div class="slider-row">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-column">
+          <div id="rocket-img-1" class="slider-row">
+            <h3 id="main-title-mobile">Visa to <br>the moon</h3>
+          </div>
+          <div class="slider-row"></div>
+        </div>
+      </section>    
+  </div>
+</section>
+<section id="slider-buttons">
+  <div class="slider-column"></div>
+  <div class="slider-column"></div>
+  <div class="slider-column buttons center">
+    <button></button>
+    <button class="active"></button>
+    <button></button>
+  </div>
+  <div class="slider-column"></div>
+</section>
+</body>
+
+</html>
